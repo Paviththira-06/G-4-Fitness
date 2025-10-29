@@ -1,6 +1,47 @@
 body{
     margin:0
 }
+/* contact */
+ 
+.contact-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .contact-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(19, 19, 18);
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+  
+  .contact-form {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control,
+  .form-select {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 12px 20px;
+    transition: var(--transition);
+  } */
+  
+  .form-control:focus,
+  .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(255, 107, 53, 0.15);
+  }
+  
 /* footer */
 .social-links-footer {
     display: flex;
