@@ -229,6 +229,7 @@ html {
   margin: 0 auto 24px auto;
   font-size: clamp(1rem, 1.4vw, 1.125rem);
   color: rgba(255,255,255,0.86);
+  font-weight: bold;
 }
 
 /* Feature list */
@@ -237,6 +238,7 @@ html {
   padding: 0;
   margin: 6px auto 28px auto;
   max-width: 700px;
+  
 }
 
 .about-list li {
@@ -251,6 +253,9 @@ html {
   color: rgba(255,255,255,0.92);
   backdrop-filter: blur(2px);
   margin-bottom: 10px;
+  font-weight: bold;
+  font-style: initial;
+  font-size: 1.5rem;
 }
 
 .about-list li i {
@@ -266,8 +271,8 @@ html {
   font-weight: 700;
   border: none;
   border-radius: 999px;
-  background: linear-gradient(90deg, #1158a7 0%, #0b72d2 100%);
-  box-shadow: 0 10px 24px rgba(14, 92, 190, 0.35);
+  background: linear-gradient(90deg, #4172aa 0%, #0b72d2 100%);
+  box-shadow: 0 10px 24px rgba(42, 116, 207, 0.35);
   transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
 }
 
